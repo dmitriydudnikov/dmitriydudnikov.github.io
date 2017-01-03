@@ -1,0 +1,128 @@
+html{
+	background-color:white;
+}
+body{
+	width:1800px;
+	margin: 0 auto;
+}
+.header{
+	background-image:url(../images/1.jpg);
+	width: 1800px;
+	height: 718px;
+	margin: 0 auto;
+	text-align: right;
+	font-weight: bold;
+}
+.content{
+	width: 1100px;
+	font-weight: bold;
+}
+
+#nt{
+	color:red;
+	font-weight:bold;
+	font-size:20px;
+}
+#text{
+	margin-top: -75px;
+	margin-left: 455px;
+	font-family: "Courier New", monospace;
+	font-size:15px;
+	font-style: italic;
+}
+
+#info{
+	margin-left: 50px;
+}
+#contact{
+	text-align: left;
+	width:300px;
+	padding-top:490px;
+	margin-left:1150px;
+	line-height:5px;
+}
+
+#number, #nd{
+	color:red;
+}
+#number{
+	font-size:30px;
+	font-style: italic;
+}
+
+#nd{
+	margin-left:45px;
+	font-size:15px;
+}
+
+.sitebar{
+	margin-top:-350px;
+	padding-left:1200px;
+}
+	
+
+footer{
+	background-image:url(../images/2.jpg);
+	width: 1800px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+
+ul{
+	font-family: "Courier New", monospace;
+	list-style-type:none;
+}
+
+li:hover{
+	list-style-image: url(../images/arrow.png);
+}
+
+
+#sitebar{
+	color:black;
+	font-size:20px;
+	text-decoration:none;
+}
+
+#second1{
+	margin-left:30px;
+
+}
+#second{
+	font-size:14px;
+	color: #69919B;
+}
+.wrapper{
+	margin-bottom:200px;
+}
+
+#sitebar1{
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+
+
+#number1{
+	margin-top:25px;
+	color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
