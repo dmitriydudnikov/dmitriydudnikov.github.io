@@ -1,0 +1,172 @@
+@font-face {
+	font-family: "Canter Bold";
+	src: url("../fonts/Canter Bold.otf");
+}
+@font-face {
+	font-family: "DroidSerif";
+	src: url("../fonts/DroidSerif-Regular.ttf");
+}
+@font-face {
+	font-family: "Canter Bold Shadow";
+	src: url("../fonts/Canter Bold Shadow.otf");
+}
+
+
+body{
+	outline: black solid 1px;
+	margin: 0 auto;
+	background: url('../images/background.png');
+	width: 1600px;
+	height: 2200px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.contact, .form-tape, form, img, .address{
+	outline: black solid 0px;
+}
+.contact {
+    padding-top: 393px;
+}
+#whrapper{
+	outline: black solid 1px;
+	background: url('../images/content-1.png');
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+ 	box-shadow: 0 0 44px black;
+}
+
+.content{
+	padding-top: 419px;
+	outline: black solid 0px;
+	margin-left: 817px;
+	color: #F6EEE3;
+	font-family: Canter Bold;
+}
+.big{
+	font-size: 213px;
+	margin-top: -77px;
+	word-spacing: -5px;
+}
+.medium{
+	font-size: 104px;
+}
+.small{
+	font-size: 94px;
+	margin-top: -35px;
+}
+p{
+	margin: 0px;
+}
+
+.want{
+	font-family: Canter Bold;
+	font-size: 72px;
+	color: #515253;
+	text-align: center;
+	text-transform: uppercase;
+}
+form{
+	background: url('../images/form-ground.png');
+	background-repeat: no-repeat;
+	width: 470px;
+	height: 260px;
+    margin-top: -414px;
+    margin-left: 543px;
+    padding-top: 55px;
+    font-family: Georgia;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.form{
+	display: inline;
+}
+.form-tape{
+    position: absolute;
+    margin-left: 810px;
+    margin-top: 115px;
+}
+
+.map-tape{
+    position: absolute;
+    margin-left: 267px;
+    margin-top: 112px;
+}
+
+.point{
+	position: absolute;
+	margin-top: 3px;
+	right: 1037px;
+}
+
+label{
+	border-left: red solid 1px;
+	margin-left: 47px;
+}
+
+input{
+	border: 0px;
+	background: rgba(255,255,255,.0);
+}
+
+.address{
+	color: #32363A;
+	font-family: Georgia;
+	font-size: 16px;
+	font-style: italic;
+    margin-left: 623px;
+    margin-top: -5px;
+    line-height: 24px;
+    padding-left: 100px;
+}
+iframe{
+	float: left;
+}
+
+.map_form{
+    margin-left: 292px;
+    margin-top: 484px;
+}
+
+.social{
+	margin-left: 639px;
+	margin-top: 50px;
+}
+.icon{
+	margin-left: 40px;
+	float: left;
+}
+
+button{
+	border:0px;
+	background: rgba(255,255,255,.0);
+	font-family: Canter Bold Shadow;
+	font-size: 31px;
+    margin-top: 29px;
+    margin-left: 203px;
+	text-transform: uppercase;
+}
+
+.message{
+	padding-top: 27px;
+}
+textarea{
+	background: rgba(0,0,0,.0);
+	font-family: Georgia;
+	font-size: 14px;
+	font-style: italic;
+	border-left: red solid 1px;
+	border-right:0px;
+	border-top:0px;
+	border-bottom:0px;
+	width: 280px;
+	height: 55px;
+	margin-left: 48px;
+}
+
+.eTimer{
+	margin-left: 950px;
+	margin-top: 60px;
+}
+@media screen and (max-width: 1440px) {

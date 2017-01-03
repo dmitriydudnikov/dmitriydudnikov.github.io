@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+		<title>Проба вёрстки из PSD</title>
+
+		<link href="css/style.css" type="text/css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="whrapper">
+			<div class="content">
+				<p class="medium">feel the excitement</p>
+				<p class="big">get ready</p>
+				<p class="small">we are comming soon</p>
+			</div>
+			<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+			<script src="http://e-timer.ru/js/etimer.js"></script>
+			<script type="text/javascript">
+				jQuery(document).ready(function() {
+					jQuery(".eTimer").eTimer({
+					etType: 3, etDate: "17.12.2016.0.0", etShowSign: 2, etSep: "	", etFontFamily: "Canter", etTextColor: "white", etBackground: "rgba(0,0,0,.0)", etLastUnit: 3, etNumberFontFamily: "Canter", etNumberSize: 70, etNumberColor: "white", etNumberPaddingTB: 8, etNumberPaddingLR: 10, etNumberBackground: "#353637", etNumberBorderRadius: 5, etNumberBorderColor: "white"
+					});
+				});
+			</script>
+			<div class="eTimer"></div>
+			<div class="contact">
+				<p><img src="images/tape.png" alt="tape" class="form-tape"></p>
+				<p><img src="images/tape.png" alt="tape" class="map-tape"></p>
+				<p class="want">want to join us?</p>
+				<div class="map_form">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.92762996551!2d-0.015960283896039932!3d51.47784267963015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760288ce645bcb%3A0x44ae3d997d9e1d9a!2zMTg1IEdyZWVud2ljaCBIaWdoIFJkLCBMb25kb24gU0UxMCA4SkEsINCS0LXQu9C40LrQvtCx0YDQuNGC0LDQvdC40Y8!5e0!3m2!1sru!2sru!4v1481792056084" width="470" height="260" style="border:0" allowfullscreen></iframe>
+					<div id="form">
+						<form>
+    						<p class="form"><label>Your name</label> <input type="text" size="8"></p>
+    						<p class="form"><label>Your email</label> <input type="email" size="11"></p>
+    						<p class="message"><textarea name="text" >Your message</textarea></p>
+    						<p class="f"><button>submit</button></p>
+						</form>
+					</div>	
+				</div>	
+			</div>
+			<div class="address">
+				<p><img src="images/point.png" alt="tape" class="point"></p>
+				<p>185 Greenwich High Road</p>
+				<p>London SE10 8JA</p>
+				<p>United Kingdom</p>
+				<p>0044 987654321</p>
+			</div>
+			<div class="social"><p class="icon"><a href="#"><img src="images/bird.png" alt="twitter"></a></p><p class="icon"><a href="#" id="center"><img src="images/skype.png" alt="skype"></a></p><p class="icon"><a href="#"><img src="images/p.png" alt="p"></a></p></div>
+		</div>
+	</body>
+</html>
+
