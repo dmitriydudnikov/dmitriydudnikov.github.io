@@ -1,0 +1,482 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face {
+	font-family: "BebasNeue Bold";
+	src: url("../fonts/BebasNeue Bold.otf");
+}
+
+@font-face {
+	font-family: "Ubuntu Regular";
+	src: url("../fonts/Ubuntu.ttf");
+}
+
+@font-face {
+	font-family: "Ubuntu Bold";
+	src: url("../fonts/Ubuntu Bold.ttf");
+}
+
+
+@font-face {
+	font-family: "Ubuntu Condenset";
+	src: url("../fonts/UbuntuCondenset Regular.ttf");
+}
+
+
+@font-face {
+	font-family: "BreeSerif Regular";
+	src: url("../fonts/BreeSerif Regular.otf");
+}
+
+@font-face {
+	font-family: "Bebas Neue";
+	src: url("../fonts/BebasNeue Regular.otf");
+}
+
+body, ul, li, div, header {
+	outline: black solid 0px;
+}
+
+body{
+	width: 1280px;
+	margin: 0 auto;
+}
+
+header{
+	height: 83px;
+}
+
+
+
+.logo > p > img{
+    margin-right: 11px;
+    margin-left: 185px;
+    margin-top: 31px;
+}
+
+
+.logo > p {
+
+	line-height: 83px;
+	float: left;
+	font-family: BreeSerif Regular;
+	font-size: 20px;
+	color: #666666;
+}
+
+
+nav>ul>li>a{
+	font-family:Ubuntu Regular;
+	font-size: 14px; 
+	color: #666666;
+}
+nav>ul>li>a:hover{
+	font-family: Ubuntu Bold;
+}
+
+.blog{
+	float: left;
+	position: relative;
+	right: 76px;
+    top: 29px;
+    width: 65px;
+    height: 25px;
+    background: #F98560;
+    border-radius: 3px;
+    text-align: center;
+}
+.blog>a{
+	font-family:Ubuntu Regular;
+	font-size: 14px; 
+	color: #fff;
+	text-decoration: none;
+	line-height: 25px;
+	display: block;
+}
+
+
+
+
+#form input[type="submit"]{
+	background: url(../images/search_nav.png);
+	width: 36px;
+	height: 36px;
+	border: 0;
+	position: relative;
+	top: 12px;
+}
+
+#search{
+	width: 104px;
+	height: 27px;
+	border-radius: 4px;
+	border: #fff solid 1px;
+	margin: 27px 0 7px -50px;
+}
+
+::-webkit-input-placeholder {
+text-align:right;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align:right;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align:right;  
+}
+
+:-ms-input-placeholder {  
+   text-align:right; 
+}
+
+
+.BebasNeue_Bold{
+	font-family: BebasNeue Bold;
+	font-size: 60px;
+	padding-top: 96px;
+}
+
+.Ubuntu_Regular{
+	margin-left: 328px;
+	font-family: Ubuntu Regular;
+	font-size: 14px;
+	width: 626px;
+	text-indent: 0.9em; /* Отступ первой строки */
+	margin-top: 6px;
+}
+
+.big_red{
+	font-family: Ubuntu Condenset;
+	font-size: 25px; 
+	text-transform: uppercase;
+	margin-top: 47px;
+	color: #ffffcc;
+	background: #F98561;
+	border:#F98561;
+	border-radius: 5px;
+    padding: 10px 54px;
+    letter-spacing: 1px
+}
+
+.big_red:hover{
+	cursor: pointer
+}
+
+
+
+.content{
+	text-align: center;
+}
+.slider{
+	color: #CCCECE;
+	height: 490px;
+	background: url(../images/slider_background.png);
+}
+
+.our_service{
+	height: 308px;
+	background: #F4F4F4;
+	margin-top: -14px;
+}
+.design, .search, .shop, .social {
+	width: 20%;
+	display: inline-block;
+	margin-top:50px;
+}
+
+.description{
+	margin-left: 55px;
+	font-family: Ubuntu Regular;
+	font-size: 11px;
+	text-align: center;
+	width: 150px;
+	line-height: 15px;
+}
+
+.description> a{
+	color:#3E9DD1;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.first_tit{
+	margin-top: -14px;
+}
+
+.tit{
+	font-family: Bebas Neue;
+	background:#2190C1;
+	color: #FFFFFF;
+	border-radius: 4px; 
+	font-size: 22px; 
+	text-transform: uppercase;
+	padding: 3px 26px;
+}
+.tit_1{
+	font-family: BreeSerif Regular;
+	font-size: 17px;
+	color: #666666;
+	margin: 12px 0px;
+}
+
+#Our_Portfolio_Awesome{
+	background:#2E3E4F;
+	width:100%;
+	height:515px;
+}
+
+.tit_2{
+	width: 400px;
+	position: relative;
+	top: 44px;
+    left: 132px;
+	font-family: BreeSerif Regular;
+	font-size: 30px;
+	color: #ff9966;
+}
+
+.more_works{
+	width: 87px;
+	height: 30px;
+	background:#2190C1;
+	border-radius: 4px;
+	line-height: 28px;
+	margin-left: 1010px;
+    margin-top: 12px;
+}
+
+.more_works>a{
+	display: block;
+	color: #fff;
+	font-family: Ubuntu Regular;
+	font-size: 14px;
+	text-decoration: none;	
+}
+.windows{
+	text-align: left;
+	margin-left: 181px;
+    margin-top: 66px;
+}
+.Our_Portfolio, .Our_Portfolio_1, .Our_Portfolio_2{
+	width: 282px;
+	float: left;
+}
+
+.Our_Portfolio_1{
+	padding: 0 36px;
+}
+
+.tit_3{
+	font-family: BreeSerif Regular;
+	font-size: 17px;
+	color: #ff9966;
+	margin-top: 10px;
+}	
+
+.description_1{
+	color: #cccccc;
+	font-family: Ubuntu Regular;
+	font-size: 11px;
+	margin-top: 7px;
+}
+#what_we_offer, .testimonails{
+	background: #F4F4F4;
+
+}
+
+
+.container{
+	margin: 0 auto;
+	width: 1026px;
+}
+.description_2{
+	font-family: Ubuntu Regular;
+	font-size: 11px;
+	text-align: left;
+	line-height: 15px;
+}
+
+.description_2> a{
+	color:#3E9DD1;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.tit_4{
+	padding-top: 28px;
+	font-family: Bebas Neue;
+	font-size: 40px;
+	color: #3399cc;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.description_what_we_offer{
+	margin: 15px auto 25px;
+	width: 712px;
+	font-family: Ubuntu Regular;
+	font-size: 12px;
+	color: #666666;
+}
+
+.design_1, .search_1, .shop_1, .social_1 {
+	width: 185px;
+	display: inline-block;
+
+}
+.search_1{
+	margin: 0 55px;
+}
+.shop_1{
+	margin-right: 55px;
+}
+
+.tit_5{
+	text-align: left;
+	font-family: BreeSerif Regular;
+	font-size: 17px;
+	color: #3399cc;
+	margin: 12px 0px;
+}
+
+.container > hr{
+	margin-top: 45px;
+}
+
+
+.testimonails{
+	height: 337px;
+}
+
+.description_3{
+	font-family: BreeSerif Regular;
+	font-size: 25px;
+	color: #666666; 
+	width: 1026px;
+	margin: 65px auto 0px; 
+}
+
+footer{
+	margin: 0 auto;
+	height: 335px;
+	background: #2E3E4F;
+}
+
+.twitter{
+	width: 208px;
+
+}
+
+.newsletter{
+	width: 245px;
+	margin-left: 32px;
+}
+
+.recent{
+	width: 228px;
+	margin-left: 38px;
+}
+
+#contact{
+	width: 145px;
+	margin-left: 20px;
+}
+
+
+.twitter, .newsletter, .recent, #contact {
+	float: left;
+}
+
+
+
+.footer_container{
+	margin: 0 auto;
+	width: 917px;
+}
+
+
+.tit_6{
+	margin-top: 34px;
+	margin-bottom: 12px;
+	font-family: BebasNeue Bold;
+	font-size:30px;
+	text-transform: uppercase;
+	color:#ff9966;
+}
+
+.description_4, .description_4_1{
+	font-family: Ubuntu Regular;
+	font-size:12px;
+	color:#999999;
+	line-height: 23px;
+}
+
+.blue{
+	color: #3399cc;
+}
+
+.image{
+	float: left;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.smartphone{
+	margin: 8px 0;
+}
+
+label {
+	font-family: Ubuntu Regular;
+	font-size:13px;
+	color:#3399cc;
+}
+
+#footer_input{
+	height: 27px;
+	border-radius: 4px;
+	border: #fff solid 1px;
+	margin: 15px 0 7px 0;
+}
+
+.button_form {
+	margin-left: 167px;
+	font-family: Ubuntu Regular;
+	font-size:13px;
+	color:#fff;
+	background:#2190C1;
+	border: #2190C1 solid 1px;
+	border-radius: 4px;
+	height: 27px;
+	width: 74px;
+}
+
+.hr{
+	margin: 7px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1440px) {}
