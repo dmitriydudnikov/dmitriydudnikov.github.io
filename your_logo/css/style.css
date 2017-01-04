@@ -96,9 +96,6 @@ nav>ul>li>a:hover{
 	display: block;
 }
 
-
-
-
 #form input[type="submit"]{
 	background: url(../images/search_nav.png);
 	width: 36px;
@@ -164,8 +161,6 @@ text-align:right;
 .big_red:hover{
 	cursor: pointer
 }
-
-
 
 .content{
 	text-align: center;
@@ -284,9 +279,7 @@ text-align:right;
 }
 #what_we_offer, .testimonails{
 	background: #F4F4F4;
-
 }
-
 
 .container{
 	margin: 0 auto;
@@ -346,7 +339,6 @@ text-align:right;
 	margin-top: 45px;
 }
 
-
 .testimonails{
 	height: 337px;
 }
@@ -385,18 +377,14 @@ footer{
 	margin-left: 20px;
 }
 
-
 .twitter, .newsletter, .recent, #contact {
 	float: left;
 }
-
-
 
 .footer_container{
 	margin: 0 auto;
 	width: 917px;
 }
-
 
 .tit_6{
 	margin-top: 34px;
@@ -456,27 +444,5 @@ label {
 .hr{
 	margin: 7px 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 1440px) {}
