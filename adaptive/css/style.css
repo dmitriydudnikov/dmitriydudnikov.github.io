@@ -306,12 +306,8 @@ footer p{
 		line-height: 148px;
 	}
 	.middle_banner .item-2 a{
-		margin: 0;
-		display: block;
-		transition: .7s;
 		height: 148px;
-		width:145px;
-
+		width:144px;
 	}
 
 	.small_banners{
