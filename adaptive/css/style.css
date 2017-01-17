@@ -283,7 +283,10 @@ nav {
 		width: 640px;
 		min-height: 73px;
 		line-height: 73px;
-		background:#373C3F url(../images/icon-menu.png) no-repeat 90% 50%;
+		background-color:#373C3F;
+		background-image: url(../images/icon-menu.png);
+		background-repeat: no-repeat;
+		background-position: 90% 50%;
 		margin-left: 0;
 	}
 
