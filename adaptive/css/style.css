@@ -138,7 +138,7 @@ nav li a:hover{
 	display: block;
 	color:black;
 	transition: .7s;
-	width: 340px;
+	width: 344px;
 	height: 290px;
 	background:#5B0FA1;
 	background-image: url("../images/1.png");
@@ -153,9 +153,9 @@ nav li a:hover{
 }
 
 .small_banners .item-2{
-	margin-left: -4px;
+	margin-left: -1px;
 	background-image: url("../images/2.png");
-	background-size: 340px 290px;
+	background-size: 343px 290px;
 	background-repeat: no-repeat;
 }
 
@@ -163,19 +163,20 @@ nav li a:hover{
 	margin-left: -4px;
 	transition: 1s;
 	background-image: url("../images/3.png");
-	background-size: 340px 290px;
+	background-size: 347px 290px;
 	background-repeat: no-repeat;
 }
 
 .small_banners .item-3:hover{
 	transition: 0.5s;
 	background-image: url("../images/3-1.png");
-	background-size: 340px 290px;
+	background-size: 346px 290px;
 	background-repeat: no-repeat;
 }
 
 footer{
 	background:#EBEBEB;
+	margin-top: -4px;
 }
 
 footer h3{
@@ -204,7 +205,6 @@ footer p{
 		height:95px;
 		display: block;
 		line-height: 95px;
-		/*outline: 1px dashed #fff;*/
 	}
 	nav ul{
 		margin: 0;
@@ -263,7 +263,11 @@ footer p{
 	background-image: url("../images/3.png");
 	background-size: 326px 280px;
 	}
-
+	.small_banners .item-3:hover{
+	transition: 0.5s;
+	background-image: url("../images/3-1.png");
+	background-size: 326px 280px;
+	}
 	footer div{
 		width:485px;
 		display: inline-block;
@@ -277,8 +281,86 @@ footer p{
 
 
 @media screen and (max-width: 640px) {
-	
+	body{
+		margin: 0 auto;
+		width:640px;
+	}	
+	nav li{
+		height:73px;
+		display: block;
+		line-height: 73px;
+	}
+
+	.big_banner{
+		width: 100%;
+		height: 345px;
+	}
+
+	.middle_banner{
+		height: 148px;
+	}
+	.middle_banner .item-1{
+		width: 495px;
+	}
+	.middle_banner .item-1 p{
+		line-height: 148px;
+	}
+	.middle_banner .item-2 a{
+		margin: 0;
+		display: block;
+		transition: .7s;
+		height: 148px;
+		width:145px;
+
+	}
+
+	.small_banners{
+	height: 548px;
+	}
+	.small_banner{
+	width: 640px;
+	height: 548px;
+	display: block;
+	}
+	.small_banner a{
+	transition: .7s;
+	width: 640px;
+	height: 548px;
+	background-image: url("../images/1.png");
+	background-repeat: no-repeat;
+	background-size: 18px;
+	background-position: 50% 50%;
+	}
+	.small_banners .item-2{
+	margin-top:-4px; 
+	margin-left: 0px;
+	background-image: url("../images/2.png");
+	background-size: 640px 548px;
+	}
+	.small_banners .item-3{
+	margin-top:-4px; 
+	margin-left: 0px;
+	transition: 1s;
+	background-image: url("../images/3.png");
+	background-size: 640px 548px;
+	}
+	.small_banners .item-3:hover{
+	transition: 0.5s;
+	background-image: url("../images/3-1.png");
+	background-size: 640px 548px;
+	}
+	footer{
+		margin-top: 1088px;
+	}
+
+	footer div{
+		width:640px;
+	}
+	footer div:last-of-type{
+		display: none;
+	}
 }
+
 @media screen and (max-width: 320px) {
 	
 }
