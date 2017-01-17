@@ -297,9 +297,10 @@ footer p{
 
 	.middle_banner{
 		height: 148px;
+		background:#BC3183;
 	}
 	.middle_banner .item-1{
-		width: 495px;
+		width: 494px;
 	}
 	.middle_banner .item-1 p{
 		line-height: 148px;
