@@ -1,14 +1,17 @@
 body{
 	margin: 0 auto;
-	max-width:1024px;
+	width:1024px;
 }
-nav{
-	background:#373C3F;
-}
+
 *{
 	margin: 0;
 	padding: 0;
 }
+nav{
+	background:#373C3F;
+	width: 100%;
+}
+
 nav ul{
 	margin: 0;
 	padding: 0;
@@ -48,34 +51,71 @@ nav li a:hover{
 	background-repeat: no-repeat;
 }
 
-.middle_banner{
-	width: 100%;
-	height: 240px;
-	background: #27212C;
-	color: #9585A4;
-	
+.big_banner h1{
+	color: #fff;
+	font-size: 60px;
 }
-.middle_banner .item-1{
-	display: inline-block;
-	width: 76%;
-	text-align: center;
 
-	line-height: 240px;
+.big_banner p{
+	color: #A6D5DE;
+	font-size: 34px;
+}
+
+.big_banner p a{
+	color: #A6D5DE;
+	text-decoration: none;
+	outline: 1px dashed #fff;
+	background-image: url("../images/1.png");
+	background-repeat: no-repeat;
+	background-size: 15px;
+	background-position: 100% 50%;
+	padding-right: 200px;
+}
+.big_banner p a:hover{
+	color:#fff;
+}
+
+
+.middle_banner{
+	margin: 0;
+	padding: 0;
+	height: 240px;
+}
+
+
+.middle_banner .item-1{
+	color: #9585A4;
+	background: #27212C;
+	display: inline-block;
+	width: 764px;
 	vertical-align: top;
 }
+
+.middle_banner .item-1 p{
+	line-height: 240px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
 .middle_banner .item-2{
-	transition: .7s;
 	display: inline-block;
 	margin-left: -4px;
-	width: 24%;
-	height: 100%;
+}
+
+.middle_banner .item-2 a{
+	margin: 0;
+	display: block;
+	transition: .7s;
+	height: 240px;
+	width:260px;
 	background:#BC3183;
 	background-image: url("../images/1.png");
 	background-repeat: no-repeat;
-	background-size: 9%;
+	background-size: 25px;
 	background-position: 50% 50%;
 }
-.middle_banner .item-2:hover{
+.middle_banner .item-2 a:hover{
 	transition: .7s;
 	background-color:#800080;
 
@@ -92,42 +132,39 @@ nav li a:hover{
 	/*outline: 1px dashed #fff;*/
 	width: 340px;
 	height: 290px;
-	background:#800080;
-	/*display: inline-block;*/
+	display: inline-block;
 }
-
-.small_banners .item-1{
+.small_banner a{
+	display: block;
+	color:black;
 	transition: .7s;
-	width: 344px;
+	width: 340px;
+	height: 290px;
 	background:#5B0FA1;
 	background-image: url("../images/1.png");
 	background-repeat: no-repeat;
-	background-size: 5%;
+	background-size: 18px;
 	background-position: 50% 50%;
-	float: left;
 }
 
-.small_banners .item-1:hover{
+.small_banner a:hover{
 	transition: .7s;
 	background-color:#800080;
 }
 
-
 .small_banners .item-2{
-	/*margin-left: -4px;*/
+	margin-left: -4px;
 	background-image: url("../images/2.png");
 	background-size: 340px 290px;
 	background-repeat: no-repeat;
-	float: left;
 }
 
 .small_banners .item-3{
-	/*margin-left: -4px;*/
+	margin-left: -4px;
 	transition: 1s;
 	background-image: url("../images/3.png");
 	background-size: 340px 290px;
 	background-repeat: no-repeat;
-	float: left;
 }
 
 .small_banners .item-3:hover{
@@ -146,12 +183,102 @@ footer h3{
 	color:#009999;
 }
 
+footer div{
+	width:500px;
+	display: inline-block;
+}
+
 footer p{
 	font-size: 14px;
+	margin-top: 10px;
 }
 
 
 
 @media screen and (max-width: 980px) {
+	body{
+		margin: 0 auto;
+		width:980px;
+	}	
+	nav li{
+		height:95px;
+		display: block;
+		line-height: 95px;
+		/*outline: 1px dashed #fff;*/
+	}
+	nav ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		margin-left: 0;
+	}
+	.big_banner{
+		width: 100%;
+		height: 550px;
+	}
+
+	.middle_banner{
+		height: 233px;
+	}
+	.middle_banner .item-1{
+		width: 760px;
+	}
+	.middle_banner .item-1 p{
+		line-height: 233px;
+	}
+	.middle_banner .item-2 a{
+		margin: 0;
+		display: block;
+		transition: .7s;
+		height: 233px;
+		width:220px;
+
+	}
+
+	.small_banners{
+	height: 280px;
+	}
+	.small_banner{
+	width: 326px;
+	height: 280px;
+	display: inline-block;
+	}
+	.small_banner a{
+	transition: .7s;
+	width: 328px;
+	height: 280px;
+	background-image: url("../images/1.png");
+	background-repeat: no-repeat;
+	background-size: 18px;
+	background-position: 50% 50%;
+	}
+	.small_banners .item-2{
+	margin-left: -2px;
+	background-image: url("../images/2.png");
+	background-size: 327px 280px;
+	}
+	.small_banners .item-3{
+	margin-left: -4px;
+	transition: 1s;
+	background-image: url("../images/3.png");
+	background-size: 326px 280px;
+	}
+
+	footer div{
+		width:485px;
+		display: inline-block;
+	}
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 640px) {
+	
+}
+@media screen and (max-width: 320px) {
 	
 }
