@@ -416,15 +416,17 @@ footer p{
 }
 
 @media screen and (max-width: 320px) {
-	nav {
-	width: 320px;
+	body, 
+	header,
+	nav,
+	 .banners{
+	width:320px;
 	}
 	nav ul{
 	width: 320px;
 	min-height: 50px;
 	line-height: 50px;
 	}
-
 
 	.big_banner{
 	width: 100%;
