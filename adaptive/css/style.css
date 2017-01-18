@@ -193,6 +193,7 @@ footer{
 	font-family: Montserrat; 
 	background:#EBEBEB;
 	margin-top: -4px;
+	padding: 30px;
 }
 
 footer h3{
@@ -201,7 +202,8 @@ footer h3{
 }
 
 footer div{
-	width:500px;
+	
+	width:460px;
 	display: inline-block;
 }
 
@@ -271,8 +273,12 @@ footer p{
 	background-image: url("../images/3-1.png");
 	background-size: 326px 280px;
 	}
+	footer{
+	padding: 30px;
+	}
+
 	footer div{
-	width:485px;
+	width:440px;
 	display: inline-block;
 	}
 }
@@ -501,7 +507,7 @@ footer p{
 	background-size: 320px 273px;
 	}
 	footer{
-	margin-top: 538px;
+	margin-top: 540px;
 	width:256px;
 	padding: 32px;
 	}
