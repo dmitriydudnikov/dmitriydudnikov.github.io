@@ -1,3 +1,13 @@
+@font-face {
+	font-family: "Quicksand";
+	src: url("../fonts/quicksand.book-regular.otf");
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-Regular.ttf");
+}
+
 body{
 	margin: 0 auto;
 	width:1024px;
@@ -24,7 +34,6 @@ nav li{
 	display: inline-block;
 	*display:inline; /* ie7 */
 	line-height: 95px;
-	/*outline: 1px dashed #fff;*/
 }
 
 nav li:not(:first-child){
@@ -36,6 +45,8 @@ nav li a{
 	transition: 1s;
 	display: block;
 	color:#fff;
+	font-size: 15px;
+	font-family: Montserrat; 
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -53,13 +64,17 @@ nav li a:hover{
 }
 
 .big_banner h1{
+	padding: 150px 20px 50px 90px;/* в медия*/
 	color: #fff;
-	font-size: 60px;
+	font-size: 60px;/* в медия*/
+	font-family: Montserrat; 
 }
 
 .big_banner p{
+	padding: 0px 0px 0px 90px;/* в медия*/
 	color: #A6D5DE;
-	font-size: 34px;
+	font-size: 34px;/* в медия*/
+	font-family: Montserrat; 
 }
 
 .big_banner p a{
@@ -82,13 +97,14 @@ nav li a:hover{
 	height: 240px;
 }
 
-
 .middle_banner .item-1{
 	color: #9585A4;
 	background: #27212C;
 	display: inline-block;
 	width: 764px;
 	vertical-align: top;
+	font-size: 30px;/* в медия*/
+	font-family: Montserrat; 
 }
 
 .middle_banner .item-1 p{
@@ -96,7 +112,6 @@ nav li a:hover{
 	vertical-align: middle;
 	text-align: center;
 }
-
 
 .middle_banner .item-2{
 	display: inline-block;
@@ -175,6 +190,7 @@ nav li a:hover{
 }
 
 footer{
+	font-family: Montserrat; 
 	background:#EBEBEB;
 	margin-top: -4px;
 }
@@ -194,33 +210,31 @@ footer p{
 	margin-top: 10px;
 }
 
-
-
 @media screen and (max-width: 980px) {
 	body{
-		width:980px;
+	width:980px;
 	}	
 
 	.big_banner{
-		width: 100%;
-		height: 550px;
+	width: 100%;
+	height: 550px;
 	}
 
 	.middle_banner{
-		height: 233px;
+	height: 233px;
 	}
 	.middle_banner .item-1{
-		width: 760px;
+	width: 760px;
 	}
 	.middle_banner .item-1 p{
-		line-height: 233px;
+	line-height: 233px;
 	}
 	.middle_banner .item-2 a{
-		margin: 0;
-		display: block;
-		transition: .7s;
-		height: 233px;
-		width:220px;
+	margin: 0;
+	display: block;
+	transition: .7s;
+	height: 233px;
+	width:220px;
 
 	}
 
@@ -258,89 +272,78 @@ footer p{
 	background-size: 326px 280px;
 	}
 	footer div{
-		width:485px;
-		display: inline-block;
+	width:485px;
+	display: inline-block;
 	}
-
-
 }
-
-
-
 
 
 @media screen and (max-width: 640px) {
 	body{
-		margin: 0 auto;
-		width:640px;
+	margin: 0 auto;
+	width:640px;
 	}	
 	nav {
-		position: relative;
+	position: relative;
 	}	
 	nav ul {
-		color: #fff;
-		width: 640px;
-		min-height: 73px;
-		line-height: 73px;
-		background-color:#373C3F;
-		background-image: url(../images/icon-menu.png);
-		background-repeat: no-repeat;
-		background-position: 90% 50%;
-		margin-left: 0;
+	color: #fff;
+	width: 640px;
+	min-height: 73px;
+	line-height: 73px;
+	background-color:#373C3F;
+	background-image: url(../images/icon-menu.png);
+	background-repeat: no-repeat;
+	background-position: 90% 50%;
+	margin-left: 0;
 	}
 
-
-
-
 	nav li {
-		display: none; /* скрыть все <li> пункты */
-		margin: 0;
-		height: 73px;
-		line-height: 73px;
+	display: none; /* скрыть все <li> пункты */
+	margin: 0;
+	height: 73px;
+	line-height: 73px;
 	}
 
 	nav a {
-		display: block;
-		text-align: left;
+	display: block;
+	text-align: left;
 	}
 
 	/* при наведении на пункты меню */
 	nav ul:hover {
-		background-image: none;
+	background-image: none;
 	}
 	
-
-
 	nav ul:hover li {
-		display: block;
+	display: block;
 	}
 
 	/* адаптивное меню справа */
 	nav.right ul {
-		left: auto;
-		right: 0;
+	left: auto;
+	right: 0;
 	}
 
-
 	.big_banner{
-		width: 100%;
-		height: 345px;
+	width: 100%;
+	height: 345px;
 	}
 
 	.middle_banner{
-		height: 148px;
-		background:#BC3183;
+	height: 148px;
+	background:#BC3183;
 	}
 	.middle_banner .item-1{
-		width: 494px;
+	width: 494px;
 	}
 	.middle_banner .item-1 p{
-		line-height: 148px;
+	line-height: 148px;
 	}
 	.middle_banner .item-2 a{
-		height: 148px;
-		width:145px;
-		background-size: 15px;
+	height: 148px;
+	width:145px;
+	background-size: 15px;
 	}
 
 	.small_banners{
@@ -379,24 +382,45 @@ footer p{
 	background-size: 640px 548px;
 	}
 	footer{
-		margin-top: 1088px;
-		padding: 72px;
+	margin-top: 1088px;
+	padding: 72px;
 	}
 
 	footer div{
-		width:496px;
+	width:496px;
 	}
 	footer div:last-of-type{
-		display: none;
+	display: none;
+	}
+
+	.big_banner h1{
+	padding: 100px 20px 30px 60px;
+	font-size: 40px;
+	}
+	.big_banner p{
+	padding: 0px 0px 0px 60px;
+	font-size: 24px;
+	}
+
+	.big_banner p a{
+	padding-right: 150px;
+	background-size: 12px;
+	}
+
+	.middle_banner .item-1{
+	font-size: 20px;
+	}
+	.small_banner a{
+	background-size: 30px;
 	}
 }
 
 @media screen and (max-width: 320px) {
 	nav {
-		width: 320px;
+	width: 320px;
 	}
 	nav ul{
-		width: 320px;
+	width: 320px;
 	}
 
 	.big_banner{
@@ -421,19 +445,19 @@ footer p{
 	}
 
 	.middle_banner{
-		height: 73px;
-		background:#BC3183;
-		width: 320px;
+	height: 73px;
+	background:#BC3183;
+	width: 320px;
 	}
 	.middle_banner .item-1{
-		width: 248px;
+	width: 248px;
 	}
 	.middle_banner .item-1 p{
-		line-height: 73px;
+	line-height: 73px;
 	}
 	.middle_banner .item-2 a{
-		height: 73px;
-		width:69px;
+	height: 73px;
+	width:69px;
 	}
 
 	.small_banners{
@@ -472,12 +496,34 @@ footer p{
 	background-size: 320px 273px;
 	}
 	footer{
-		margin-top: 540px;
-		width:256px;
-		padding: 32px;
+	margin-top: 540px;
+	width:256px;
+	padding: 32px;
 	}
 	footer div{
-		width:256px;
+	width:256px;
+	}
+	.big_banner h1{
+	padding: 50px 20px 15px 30px;
+	font-size: 20px;
+	}
+	.big_banner p{
+	padding: 0px 0px 0px 30px;
+	font-size: 15px;
 	}
 
+	.big_banner p a{
+	padding-right: 80px;
+	background-size: 8px;
+	}
+
+	.middle_banner .item-1{
+	font-size: 12px;
+	}
+	.middle_banner .item-2 a{
+	background-size: 12px;
+	}
+	.small_banner a{
+	background-size: 30px;
+	}
 }
