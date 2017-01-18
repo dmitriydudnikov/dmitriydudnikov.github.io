@@ -421,7 +421,10 @@ footer p{
 	}
 	nav ul{
 	width: 320px;
+	min-height: 50px;
+	line-height: 50px;
 	}
+
 
 	.big_banner{
 	width: 100%;
