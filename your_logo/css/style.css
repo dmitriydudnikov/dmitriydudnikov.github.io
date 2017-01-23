@@ -48,14 +48,11 @@ header{
 	height: 83px;
 }
 
-
-
 .logo > p > img{
     margin-right: 11px;
     margin-left: 185px;
     margin-top: 31px;
 }
-
 
 .logo > p {
 
@@ -65,7 +62,6 @@ header{
 	font-size: 20px;
 	color: #666666;
 }
-
 
 nav>ul>li>a{
 	font-family:Ubuntu Regular;
@@ -279,6 +275,7 @@ text-align:right;
 }
 #what_we_offer, .testimonails{
 	background: #F4F4F4;
+
 }
 
 .container{
@@ -338,6 +335,7 @@ text-align:right;
 .container > hr{
 	margin-top: 45px;
 }
+
 
 .testimonails{
 	height: 337px;
@@ -444,5 +442,3 @@ label {
 .hr{
 	margin: 7px 0;
 }
-
-@media screen and (max-width: 1440px) {}
