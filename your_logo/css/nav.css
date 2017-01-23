@@ -28,6 +28,7 @@ nav>ul>li{
   position:relative;
 }
 nav>ul>li>a{
+  transition: 1.2s;
   padding:0 20px;
   display:block;
   line-height:83px !important;
