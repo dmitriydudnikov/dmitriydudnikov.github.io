@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0 auto;
+	width: 1280px;
+}
+/*HEADER*/
+header{
+	height: 800px;
+	background: url(../images/header.png);
+	position: relative;
+}
+.logo{
+	width: 273px;
+	height: 273px;
+	background: url(../images/logo.png);
+	position: absolute;
+	left: 502px;
+	top:62px;
+}
+
+header form{
+	width: 334px;
+	height: 274px;
+	padding: 30px 0px;
+	text-align: center;
+	background: #fff;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.5);
+	border-radius: 2px;
+	position: absolute;
+	top:600px;
+	left:480px;
+}
+
+header form fieldset{
+
+}
+
+header form input{
+	width: 270px;
+	height: 40px;
+	border-radius: 3px;
+	margin-bottom: 23px;
+	border:1px solid #E5E5E5;
+	border-top: 2px solid #E5E5E5;
+	padding-left: 15px;
+}
+
+form .form_img{
+	background: url(../images/form.png);
+	width: 335px;
+	height: 87px;
+}
+
+form div:last-of-type{
+	width: 220px;
+	margin: 25px 0 25px 60px;
+}
+
+
+header form button{
+	width: 190px;
+	height: 42px;
+	text-transform: uppercase;
+	background-color: #227DD3;
+	border:1px solid #227DD3;
+	border-radius: 2px;
+	color: #fff;
+}
+
+form button:hover{
+	cursor: pointer;
+}
+
+
+/*HEADER*/
+
+/*FILES*/
+.files{
+	min-height: 200px;
+	outline:1px solid #E5E5E5;
+	padding-left: 215px;
+	padding-top: 200px;
+}
+
+.documenst, .photos{
+	width: 390px;
+	display: inline-block;
+}
+.documenst:before {
+   content:""; 
+   position:absolute;
+   width:95px;
+   height:121px;
+   background:url(../images/documents.png); 
+}
+
+.photos{
+	margin-left: 70px;
+}
+
+.photos:before {
+   content:""; 
+   position:absolute;
+   width:101px;
+   height:135px;
+   background:url(../images/photo.png); 
+}
+
+.text{
+	padding-left: 125px;
+	padding-top: 20px;
+}
+
+.info{
+	height: 1352px;
+	background: url(../images/box-setr.png);
+}
+
+/*FILES*/
+
+/*CONTACT*/
+
+.contact form{
+	width: 430px;
+	height: 430px;
+	box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	border-radius: 50%;
+	text-align: center;
+}
+
+.contact input{
+	width: 275px;
+	height: 30px;
+}
+
+.contact input:last-of-type{
+	margin-top: 15px;
+}
+
+.contact textarea{
+	width: 275px;
+	height: 80px;
+	margin-top: 15px;
+}
+
+/*CONTACT*/
