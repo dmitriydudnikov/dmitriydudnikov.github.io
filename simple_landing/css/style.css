@@ -22,6 +22,9 @@ body{
 	font-family: Open Sans;
 }
 
+input{
+	color:#999999;
+}
 
 /*HEADER*/
 header{
