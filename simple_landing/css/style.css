@@ -195,6 +195,7 @@ form button:hover{
 }
 
 .desktop a{
+	transition: 1.2s;
 	display: block;
 	text-decoration: none;
 	color: #fff;
@@ -208,6 +209,14 @@ form button:hover{
 	font-size: 28px;
 	font-family: Open Sans Semibold;
 }
+
+.desktop a:hover{
+	transition: 1.2s;
+	color: #44A36F;
+
+	background: #fff;
+}
+
 
 /*INFO*/
 
@@ -253,6 +262,7 @@ form button:hover{
 	padding-left: 10px;
 	color:#999999;
 	font-family: Open Sans;
+	font-size: 14px;
 }
 
 .contact button{
