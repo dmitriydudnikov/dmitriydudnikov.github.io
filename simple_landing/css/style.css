@@ -259,6 +259,7 @@ form button:hover{
 	width: 67px;
 	height: 67px;
 	border: 0;
+	border-radius: 50%;
 	background: url(../images/contacFormButton.png);
 	background-repeat: no-repeat;
 }
