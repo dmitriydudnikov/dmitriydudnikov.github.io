@@ -51,6 +51,11 @@ body{
 
 @media screen and (max-width: 768px) {
 	.items{margin-top: 0;}
+	.item:nth-child(1), 
+	.item:nth-child(3), 
+	.item:nth-child(5), 
+	.item:nth-child(7){margin-right: 0;}
+
 
 	.item:nth-child(2),  
 	.item:nth-child(4),
