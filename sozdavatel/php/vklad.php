@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Калькулятор</title>
+	<title>Расчёт вклада</title>
 </head>
 
 <body>
