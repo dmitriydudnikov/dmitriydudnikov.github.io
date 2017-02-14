@@ -3,17 +3,31 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-	<title>Шаблон</title>
+	<title>Валидатор</title>
 
 	<link href="css/style.css" type="text/css" rel="stylesheet">
-
 
 </head>
 
 <body>
 
+<form>
+	<div>	
+		<label for="name">Ваше имя *</label>
+	    <div><input type="text" id="name" pattern="[A-Za-zА-Яа-яЁё]{2,10}" placeholder="Имя" required></div>
+	</div>   
+	<div>
+		<label for="tel">Ваш моб.номер *</label>
+	    <div><input type="tel" pattern="7-[0-9]{3}-[0-9]{7}" placeholder="7-xxx-xxxxxxx" id="tel" required></div>
+	</div>
+	<div>
+	    <label for="email">Ваш email *</label>
+	    <div><input type="email" id="email" required></div>
+	</div>
+	<div>Поля, отмеченные &laquo;*&raquo;, обязательны для заполнения.</div>
+	    <button type="submit" id="submit">Отправить</button>
+	    <button type="reset" id="submit">Отменить</button>
+</form>
 
 </body>
 </html>

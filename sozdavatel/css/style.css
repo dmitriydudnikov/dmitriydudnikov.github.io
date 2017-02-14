@@ -12,7 +12,7 @@ body{
 
 .main_div{
 	text-align: center;
-	margin-top: 350px;
+	margin-top: 25%;
 }
 .main_div a{
 	transition: 0.7s;
@@ -26,6 +26,7 @@ body{
 	line-height: 50px;
 	padding: 0 15px;
 	text-transform: uppercase;
+	margin-bottom: 3%
 }
 .main_div a:hover{
 	transition: 1.2s;
@@ -34,8 +35,5 @@ body{
 	background: #5FC18B;
 }
 
-.main_div a:first-child{
-	margin-right: 40px;
-}
 
 

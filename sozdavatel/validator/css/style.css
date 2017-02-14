@@ -1,5 +1,8 @@
 body{
 	margin: 0 auto;
+	font-family: sans-serif;
 }
 
-@media screen and (max-width: 1440px) {
+form{
+	margin: 10px 0 0 10px;
+}
