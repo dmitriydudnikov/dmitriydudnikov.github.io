@@ -8,8 +8,12 @@ body{
 	max-width: 1500px;
 }
 
+button{
+	margin-top: 30px;
+}
+
 .items{
-	margin-top: 60px;
+	margin-top: 30px;
 	font-size: 0;
 }
 
@@ -41,6 +45,9 @@ body{
 }
 
 @media screen and (max-width: 1024px) {
+
+	button{margin: 10px 0 10px 0;}
+
 	.items{margin-top: 0;}
 
 	.item:nth-child(2), 
@@ -62,14 +69,14 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-	.items{margin-top: 0;}
-	.item:nth-child(1), 
+	button{display: none;}
+
+	.items{margin-top: 0;} 
 	.item:nth-child(3), 
 	.item:nth-child(5), 
 	.item:nth-child(7){margin-right: 0;}
 
-
-	.item:nth-child(2),  
+	.item:nth-child(1),  
 	.item:nth-child(4),
 	.item:nth-child(6),  
 	.item:nth-child(8){margin: 5px 0;}
