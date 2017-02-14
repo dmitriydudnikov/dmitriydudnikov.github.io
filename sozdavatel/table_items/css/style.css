@@ -44,6 +44,11 @@ button{
 	margin-top: 10px !important;
 }
 
+.hidden{
+	display: none;
+}
+
+
 @media screen and (max-width: 1024px) {
 
 	button{margin: 10px 0 10px 0;}
