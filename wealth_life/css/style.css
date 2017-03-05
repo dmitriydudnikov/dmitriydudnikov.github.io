@@ -1,0 +1,345 @@
+/*Шрифты*/
+@font-face {
+	font-family: "MuseoSansBold";
+	src: url("../fonts/MuseoSans/MuseoSansBold/MuseoSansBold.ttf");
+}
+@font-face {
+	font-family: "MuseoSansItalic";
+	src: url("../fonts/MuseoSans/MuseoSansItalic/MuseoSansItalic.ttf");
+}
+@font-face {
+	font-family: "MuseoSansMedium";
+	src: url("../fonts/MuseoSans/MuseoSansMedium/MuseoSansMedium.ttf");
+}
+@font-face {
+	font-family: "MuseoSansRegular";
+	src: url("../fonts/MuseoSans/MuseoSansRegular/MuseoSansRegular.ttf");
+}
+@font-face {
+	font-family: "Pacifico";
+	src: url("../fonts/Pacifico/Pacifico.ttf");
+}
+@font-face {
+	font-family: "fontawesome-webfont";
+	src: url("../fonts/FontAwesome/fontawesome-webfont.ttf");
+}
+@font-face {
+	font-family: "Asap-Bold";
+	src: url("../fonts/Asap/Asap-Bold.otf");
+}
+@font-face {
+	font-family: "Asap-Regular";
+	src: url("../fonts/Asap/Asap-Regular.otf");
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/*вспомогательные классы*/
+.container{
+	width: 1140px;
+	margin: 0 auto;
+
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.red_button{
+	color: #fff;
+	font-family: MuseoSansBold;
+	font-size: 22px;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	height: 60px;
+	line-height: 63px;
+	background:#F2703E;
+	padding: 0 38px;
+	border-bottom: 3px solid #DC5420;
+	border-radius: 2%;
+}
+	.red_button:hover{
+		transition: ease-in-out 0.25s;
+		opacity: 0.7;
+	}
+.green_text{
+	color: #9BB649;
+}
+.red_text{
+	color:#ff6633;
+}
+body{
+	margin: 0 auto;
+}
+header{
+	min-height: 748px;
+	background: #F0F1EC;
+	position: relative;
+}
+	header .logo{
+		float: left;
+		color: #034B81;
+		line-height: 84px;
+		font-family: Asap-Bold;
+		font-size: 30px;
+		text-transform: uppercase;
+		letter-spacing: 0px;
+	}
+		header .logo span{
+			text-transform: lowercase;
+			font-family: Pacifico;
+		}
+/*Цвет заголовков*/
+h1, h2{
+	color: #034B81;
+}
+nav ul{
+	margin-left: 514px;
+}
+	nav ul li{
+		display: inline-block;
+		text-transform: uppercase;
+		float: left;
+	}
+		nav ul li a{
+			text-decoration: none;
+			color: #9A9D90;
+			font-family: Asap-Regular;
+			font-size: 17px;
+			display: block;
+			height: 86px;
+			line-height: 92px;
+			padding: 0 15px;
+		}
+			nav ul li a:hover{
+				transition: ease-in-out 0.25s;
+				background: #D6D9CA;
+				opacity: 0.7;
+			}
+.social_contacts{
+	text-align: right;
+}
+	.social_contacts a{
+		margin-top: 34px;
+		text-decoration: none;
+		width: 21px;
+		height: 21px;
+		display: inline-block;
+		background: url(../images/social_icons.png);
+		background-repeat: no-repeat;
+		margin-right: 11px;
+	}
+		.social_contacts a:nth-child(2){
+			background-position: -37px 0;
+		}
+		.social_contacts a:nth-child(3){
+			background-position: -71px 0;
+		}
+		.social_contacts a:nth-child(4){
+			background-position: -105px 0;
+		}
+		.social_contacts a:last-child{
+			margin-right: 0;
+		}
+header hr{
+	border: 2px solid #D6D9CA;
+}
+.info{
+	margin-left: 385px;
+	margin-top: 110px;
+	font-family: MuseoSansRegular;
+}
+	.info h1{
+		font-size: 48px;
+		margin-bottom: 26px;
+	}
+	.info p{
+		line-height: 30px;
+		font-size: 18px;
+		margin-bottom: 26px;
+	}
+.our_clients{
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: MuseoSansMedium;
+	color: #B2B3AF;
+}
+	.our_clients span{
+		margin-top: 30px;
+		content: "";
+		display: inline-block;
+		width: 750px;
+		height: 52px;
+		background: url(../images/clients.png);
+	}
+.info .attention{
+	position: absolute;
+	display: inline-block;
+	width: 154px;
+	height: 154px;
+	border:3px solid #DC5420;
+	border-radius: 50%;
+	text-align: center;
+	color: #fff;
+	background: #F1703D;
+	font-family: MuseoSansBold;
+	font-size: 18px;
+	top: 388px;
+    left: 1359px;
+}
+	.info .attention p{
+		line-height: 27px;
+		margin-top: 35px;
+	}
+.desktope{
+	height: 872px;
+	background-image: url(../images/monitor.png);
+	background-repeat: no-repeat;
+	background-position: 50.3% 50%;
+}
+section{
+	min-height: 1936px;
+	background:#F9FAF5;
+	position: relative;
+}
+	section .date-line{
+		padding-top: 108px;
+		width: 80px;
+		float: left;
+	}
+		section .date-line span{
+			display: block;
+			height: 1430px;
+			width: 2px;
+			background: #E0E1DD;
+			margin-left: 39px;
+		}
+	section .content{
+		margin-left: 195px;
+		width: 945px;
+	}
+	section .content .dates{
+		position: absolute;
+		left: 381px;
+		top: 107px;
+		width: 80px;
+		text-align: center;
+	}
+		section .date{
+			width: 76px;
+			height: 76px;
+			line-height: 76px;
+			border-radius: 50%;
+			border:2px solid #E0E1DD;
+			background:#F9FAF5;
+			font-size: 38px;
+			font-family: MuseoSansMedium;
+			color: #034B81;
+		}
+		section .month{
+			display: inline-block;
+			height: 26px;
+			line-height: 26px;
+			border-radius: 2%;
+			border:2px solid #E0E1DD;
+			background:#F9FAF5;
+			margin-top: 14px;
+			font-family: MuseoSansbOLD;
+			color: #034B81;
+			padding: 0 9px;
+		}
+.date-time:first-child{
+	margin-bottom: 318px;
+}
+.date-time:nth-child(2){
+	margin-bottom: 88px;
+}
+.date-time:nth-child(3){
+	margin-bottom: 172px;
+}
+.date-time:nth-child(4){
+	margin-bottom: 248px;
+}
+section h2{
+	font-size: 32px;
+	font-family: MuseoSansRegular;
+	margin-bottom: 18px;
+	padding-top: 96px;
+}
+section p{
+	font-size: 16px;
+	font-family: MuseoSansRegular;
+	color: #666666;
+}
+form{
+	margin-top: 50px;
+	width: 906px;
+	height: 160px;
+	background: #034B81;
+	border-radius: 2px;
+	padding: 40px 0 0 35px;
+}
+	form p{
+		font-size: 26px;
+		font-family: MuseoSansMedium;
+		color: #fff;
+		margin-bottom: 0;
+	}
+	form input{
+		height: 65px;
+		width: 203px;
+		line-height: 65px;
+		border:0;
+		border-radius: 2px;
+		padding: 0 0 0 17px;
+		margin-right: 20px;
+		margin-top: 20px;
+		font-size: 18px;
+		font-family: MuseoSansRegular;
+	}
+	form button{
+		cursor: pointer;
+		border:0;
+		border-radius: 2px;
+		width: 380px;
+		height: 65px;
+		background: #9BB649;
+		color: #fff;
+		font-family: MuseoSansBold;
+		font-size: 22px;
+		border-bottom: 3px solid #82993D;
+		text-transform: uppercase;
+	}
+		form button:hover{
+			transition: ease-in-out 0.25s;
+			opacity: 0.7;
+		}
+.content ul{
+	font-family: MuseoSansMedium;
+	font-size: 16;
+	margin-top: 10px;
+}
+	.content ul li{
+		list-style: none;
+		padding-bottom: 15px;
+		background: url(../images/li.png) no-repeat;
+	    height: 23px;
+	    padding-left: 38px;
+	}
+.content .red_button{
+	margin-top: 38px;
+	margin-bottom: 20px;
+	padding: 0 55px;
+}
+
+.content i{
+	margin-left: 15px;
+	font-size: 14px;
+	font-family: MuseoSansItalic;
+	color: #666666;
+}

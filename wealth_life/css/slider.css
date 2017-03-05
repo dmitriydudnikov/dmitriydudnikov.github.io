@@ -1,0 +1,50 @@
+.slider{
+	float: left;
+    position: relative;
+    background-image: url(../images/iphone.png);
+	background-repeat: no-repeat;
+	width: 350px;
+	height: 542px;
+	top: 116px;
+	background-position: -14px 0;
+}
+
+#slideshow {
+	width: 281px; 
+	height: 459px;
+	overflow-x: scroll; 
+	overflow-y: hidden;
+	margin-left: 20px;
+    margin-top: 83px;
+}
+
+#slideshow ul {
+	width: 843px; list-style: none; 
+	
+}
+	#slideshow ul li {
+		float: left;
+	}
+
+#slideshow-nav {
+	width: 250px; visibility: hidden;
+}	
+	#slideshow-nav ul {
+		position: absolute;/**/
+		list-style: none; 
+		left: 37%;
+		top: 94.5%;
+	}
+		#slideshow-nav ul li {
+			float: left; 
+		}
+			#slideshow-nav ul li a {
+				display: block; width: 10px; height: 10px;
+				float: left; margin: 0 5px;
+				background-color: #D9D9D9; text-indent: -9999px;
+				border-radius: 50%;
+			}
+				#slideshow-nav ul li a:hover, #slideshow-nav ul li a.active {
+					background-color: #F0723F;
+				}
+
